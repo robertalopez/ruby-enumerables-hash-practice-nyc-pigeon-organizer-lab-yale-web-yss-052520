@@ -5,12 +5,13 @@ def nyc_pigeon_organizer(data)
   names = []
   data.each do |key, value|
     value.each do |key, value2|
+      binding.pry 
       names << value2 
 end
 end 
 names.flatten
 names.uniq
-binding.pry 
+ 
 names.each do |name|
   new_hash[name => {}]
 end 
