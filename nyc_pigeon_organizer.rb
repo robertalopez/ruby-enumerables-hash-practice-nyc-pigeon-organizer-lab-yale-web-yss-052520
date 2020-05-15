@@ -5,8 +5,11 @@ def nyc_pigeon_organizer(data)
   names = []
   data.each do |key, value|
     value.each do |key, value2|
+      value2.each do |x|
+        
       binding.pry 
-      names << value2 
+      #names << value2 
+    end 
 end
 end 
 names.flatten
