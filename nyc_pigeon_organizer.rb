@@ -13,19 +13,8 @@ def nyc_pigeon_organizer(data)
         new_hash[x][key] = []
       end 
       new_hash[x][key] << key2.to_s
-      binding.pry 
-      #names << value2 
     end 
 end
 end 
-names.flatten
-names.uniq
- 
-names.each do |name|
-  new_hash[name => {}]
-end 
-data.each do |key, value|
-  new_hash[name][key => [] ]
-end 
-
+new_hash
 end 
