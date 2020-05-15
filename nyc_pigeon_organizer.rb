@@ -9,8 +9,8 @@ def nyc_pigeon_organizer(data)
 end
 end 
 names.flatten
-binding.pry 
 names.uniq
+binding.pry 
 names.each do |name|
   new_hash[name => {}]
 end 
